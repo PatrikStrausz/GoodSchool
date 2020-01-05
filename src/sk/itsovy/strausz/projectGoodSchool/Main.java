@@ -38,6 +38,14 @@ public class Main {
         school.addStudent(s14);
         school.addStudent(s15);
 
-
+//        school.getList();
+        System.out.println("The best student: "+school.getTheBestStudent().getFullName());
+        System.out.println("The worst student: "+school.getWorstStudent().getFullName());
+        System.out.println("Average absence: "+school.getAverageAbsence());
+        System.out.println("Average mark from math: "+school.getAverageGradeFromMath());
+        System.out.println("Average grade: "+ school.getAverageGrade());
+        System.out.println("The lowest absence: " +school.getTheLowestAbsence());
+        System.out.println(school.getListSortedByLastNameAsc());
+        System.out.println(school.getListSortedByAbsenceDesc());
     }
 }
